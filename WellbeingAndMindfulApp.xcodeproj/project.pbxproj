@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		450B23A4278A12B7008ED780 /* FirebaseDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450B23A3278A12B7008ED780 /* FirebaseDB.swift */; };
+		450B23A6278A12E0008ED780 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450B23A5278A12E0008ED780 /* User.swift */; };
+		450B23A8278A1467008ED780 /* SignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450B23A7278A1467008ED780 /* SignUpViewModel.swift */; };
+		450B23AA278A19E8008ED780 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450B23A9278A19E8008ED780 /* LoginViewModel.swift */; };
+		450B23AC278A1C42008ED780 /* JournalViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450B23AB278A1C42008ED780 /* JournalViewModel.swift */; };
+		450B23AE278A1C4E008ED780 /* Journal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450B23AD278A1C4E008ED780 /* Journal.swift */; };
+		450B23B0278A283C008ED780 /* ExerciseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450B23AF278A283C008ED780 /* ExerciseViewModel.swift */; };
+		450B23B2278A2847008ED780 /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450B23B1278A2847008ED780 /* Exercise.swift */; };
+		450B23B4278B67E0008ED780 /* SleepViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450B23B3278B67E0008ED780 /* SleepViewModel.swift */; };
+		450B23B7278B68CC008ED780 /* Sleep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450B23B6278B68CC008ED780 /* Sleep.swift */; };
+		450B23B9278DE910008ED780 /* StyleSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450B23B8278DE910008ED780 /* StyleSheet.swift */; };
 		450BA96F2764D9AE0012E36B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450BA96E2764D9AE0012E36B /* AppDelegate.swift */; };
 		450BA9712764D9AE0012E36B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450BA9702764D9AE0012E36B /* SceneDelegate.swift */; };
 		450BA9732764D9AE0012E36B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450BA9722764D9AE0012E36B /* ViewController.swift */; };
@@ -16,13 +27,45 @@
 		450BA9832764DA640012E36B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 450BA9822764DA640012E36B /* GoogleService-Info.plist */; };
 		450BA9852764DC770012E36B /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450BA9842764DC770012E36B /* SignUpViewController.swift */; };
 		450BA9892764DC9A0012E36B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450BA9882764DC9A0012E36B /* HomeViewController.swift */; };
+		4511342F27C7D8D7004E8E82 /* BreatheViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4511342E27C7D8D7004E8E82 /* BreatheViewModel.swift */; };
+		4511343127C7DA30004E8E82 /* Breathe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4511343027C7DA30004E8E82 /* Breathe.swift */; };
 		451151072767ADB000490F5D /* SleepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451151062767ADB000490F5D /* SleepViewController.swift */; };
 		451151092767ADC100490F5D /* CheckInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451151082767ADC100490F5D /* CheckInViewController.swift */; };
 		4511510B2767ADCD00490F5D /* ExerciseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4511510A2767ADCD00490F5D /* ExerciseViewController.swift */; };
 		4511510D2767ADD900490F5D /* TipsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4511510C2767ADD900490F5D /* TipsViewController.swift */; };
-		4511510F2767ADE400490F5D /* ConnectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4511510E2767ADE400490F5D /* ConnectViewController.swift */; };
 		451151112767ADEF00490F5D /* MeditateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451151102767ADEE00490F5D /* MeditateViewController.swift */; };
 		451151132767ADFA00490F5D /* TrackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451151122767ADFA00490F5D /* TrackViewController.swift */; };
+		452BDB8227FC9D100043E3D9 /* AdminHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452BDB8127FC9D100043E3D9 /* AdminHomeViewController.swift */; };
+		452BDB8427FCB8C70043E3D9 /* AdminManageUsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452BDB8327FCB8C70043E3D9 /* AdminManageUsersViewController.swift */; };
+		453B8D8A27BBE7FB004741C5 /* BreatheAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453B8D8927BBE7FB004741C5 /* BreatheAnimationViewController.swift */; };
+		453D2BC627FA150B00CBF6FE /* ViewAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453D2BC527FA150B00CBF6FE /* ViewAccountViewController.swift */; };
+		453D2BC827FA223700CBF6FE /* ColourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453D2BC727FA223700CBF6FE /* ColourViewController.swift */; };
+		454526D027CE86550054DFE8 /* Tips.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454526CF27CE86550054DFE8 /* Tips.swift */; };
+		454526D427CFB5250054DFE8 /* ShowTipsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454526D327CFB5250054DFE8 /* ShowTipsViewController.swift */; };
+		454526D627CFD5620054DFE8 /* AddTipsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454526D527CFD5620054DFE8 /* AddTipsViewController.swift */; };
+		454526FC27D543990054DFE8 /* FSCalendar in Frameworks */ = {isa = PBXBuildFile; productRef = 454526FB27D543990054DFE8 /* FSCalendar */; };
+		454526FE27D543FF0054DFE8 /* TrackMonthlyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454526FD27D543FE0054DFE8 /* TrackMonthlyViewController.swift */; };
+		454DF9E427C914730043C5AB /* MeditateUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454DF9E327C914730043C5AB /* MeditateUIView.swift */; };
+		454DFA0227C921D50043C5AB /* MeditateAnimateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454DFA0127C921D50043C5AB /* MeditateAnimateViewController.swift */; };
+		4577B43827E7B49900498F1C /* TrendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4577B43727E7B49900498F1C /* TrendsViewController.swift */; };
+		4577B46927EA155600498F1C /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = 4577B46827EA155600498F1C /* Algorithms */; };
+		4577B46C27EA157C00498F1C /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = 4577B46B27EA157C00498F1C /* Algorithms */; };
+		4577B46F27EA173400498F1C /* Charts in Frameworks */ = {isa = PBXBuildFile; productRef = 4577B46E27EA173400498F1C /* Charts */; };
+		4581416F27BD8E170012824F /* BoxBreathSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4581416E27BD8E170012824F /* BoxBreathSwiftUIView.swift */; };
+		458141DD27C526830012824F /* ResonantBreathSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458141DC27C526830012824F /* ResonantBreathSwiftUIView.swift */; };
+		458141DF27C5269A0012824F /* AlternateNostrilBreathSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458141DE27C5269A0012824F /* AlternateNostrilBreathSwiftUIView.swift */; };
+		458141E127C526C20012824F /* DiaphragmaticBreathSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458141E027C526C20012824F /* DiaphragmaticBreathSwiftUIView.swift */; };
+		458141E327C526EA0012824F /* Breath478SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458141E227C526EA0012824F /* Breath478SwiftUIView.swift */; };
+		4592B51327B5796C003BB1A0 /* Ground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4592B51227B5796C003BB1A0 /* Ground.swift */; };
+		4592B51527B5797A003BB1A0 /* GroundViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4592B51427B5797A003BB1A0 /* GroundViewModel.swift */; };
+		4592B51927B80821003BB1A0 /* CheckInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4592B51827B80821003BB1A0 /* CheckInViewModel.swift */; };
+		4592B51B27B81492003BB1A0 /* CheckIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4592B51A27B81491003BB1A0 /* CheckIn.swift */; };
+		45B8672727CA6CBC007988C0 /* Komiku_-_08_-_Dreaming_of_you.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 45B8672327CA6CBB007988C0 /* Komiku_-_08_-_Dreaming_of_you.mp3 */; };
+		45B8672827CA6CBC007988C0 /* Komiku_-_69_-_Resolution.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 45B8672427CA6CBB007988C0 /* Komiku_-_69_-_Resolution.mp3 */; };
+		45B8672927CA6CBC007988C0 /* Komiku_-_55_-_Sunset_on_the_beach.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 45B8672527CA6CBB007988C0 /* Komiku_-_55_-_Sunset_on_the_beach.mp3 */; };
+		45B8672A27CA6CBC007988C0 /* Komiku_-_11_-_Friends_2068.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 45B8672627CA6CBB007988C0 /* Komiku_-_11_-_Friends_2068.mp3 */; };
+		45B8672C27CAB79B007988C0 /* MeditateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B8672B27CAB79B007988C0 /* MeditateViewModel.swift */; };
+		45B8672E27CAB8BF007988C0 /* Meditate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B8672D27CAB8BF007988C0 /* Meditate.swift */; };
 		45B958972764E553009832CD /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B958962764E553009832CD /* LoginViewController.swift */; };
 		45B9589A2764E740009832CD /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B958992764E740009832CD /* Utilities.swift */; };
 		45B9589D2764EEB9009832CD /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 45B9589C2764EEB9009832CD /* FirebaseAnalytics */; };
@@ -35,11 +78,23 @@
 		45B958AB27677EE3009832CD /* JournalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B958AA27677EE3009832CD /* JournalViewController.swift */; };
 		45B958AD27677EF2009832CD /* BreatheViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B958AC27677EF2009832CD /* BreatheViewController.swift */; };
 		45B958AF27677F0C009832CD /* GroundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B958AE27677F0C009832CD /* GroundViewController.swift */; };
-		45B958B127678492009832CD /* Homepage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45B958B027678492009832CD /* Homepage.storyboard */; };
+		45BB5F3927DBD57700FB6DAE /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BB5F3827DBD57700FB6DAE /* Track.swift */; };
+		45BB5F3B27DBDD4A00FB6DAE /* TrackEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BB5F3A27DBDD4A00FB6DAE /* TrackEntryViewController.swift */; };
 		45C7CCBB2767B17D00A4D55D /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C7CCBA2767B17D00A4D55D /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		450B23A3278A12B7008ED780 /* FirebaseDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseDB.swift; sourceTree = "<group>"; };
+		450B23A5278A12E0008ED780 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		450B23A7278A1467008ED780 /* SignUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewModel.swift; sourceTree = "<group>"; };
+		450B23A9278A19E8008ED780 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		450B23AB278A1C42008ED780 /* JournalViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalViewModel.swift; sourceTree = "<group>"; };
+		450B23AD278A1C4E008ED780 /* Journal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Journal.swift; sourceTree = "<group>"; };
+		450B23AF278A283C008ED780 /* ExerciseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseViewModel.swift; sourceTree = "<group>"; };
+		450B23B1278A2847008ED780 /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
+		450B23B3278B67E0008ED780 /* SleepViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepViewModel.swift; sourceTree = "<group>"; };
+		450B23B6278B68CC008ED780 /* Sleep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sleep.swift; sourceTree = "<group>"; };
+		450B23B8278DE910008ED780 /* StyleSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleSheet.swift; sourceTree = "<group>"; };
 		450BA96B2764D9AE0012E36B /* WellbeingAndMindfulApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WellbeingAndMindfulApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		450BA96E2764D9AE0012E36B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		450BA9702764D9AE0012E36B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,20 +106,49 @@
 		450BA9822764DA640012E36B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		450BA9842764DC770012E36B /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		450BA9882764DC9A0012E36B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		4511342E27C7D8D7004E8E82 /* BreatheViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreatheViewModel.swift; sourceTree = "<group>"; };
+		4511343027C7DA30004E8E82 /* Breathe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Breathe.swift; sourceTree = "<group>"; };
 		451151062767ADB000490F5D /* SleepViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepViewController.swift; sourceTree = "<group>"; };
 		451151082767ADC100490F5D /* CheckInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckInViewController.swift; sourceTree = "<group>"; };
 		4511510A2767ADCD00490F5D /* ExerciseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseViewController.swift; sourceTree = "<group>"; };
 		4511510C2767ADD900490F5D /* TipsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsViewController.swift; sourceTree = "<group>"; };
-		4511510E2767ADE400490F5D /* ConnectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectViewController.swift; sourceTree = "<group>"; };
 		451151102767ADEE00490F5D /* MeditateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditateViewController.swift; sourceTree = "<group>"; };
 		451151122767ADFA00490F5D /* TrackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackViewController.swift; sourceTree = "<group>"; };
+		452BDB8127FC9D100043E3D9 /* AdminHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminHomeViewController.swift; sourceTree = "<group>"; };
+		452BDB8327FCB8C70043E3D9 /* AdminManageUsersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminManageUsersViewController.swift; sourceTree = "<group>"; };
+		453B8D8927BBE7FB004741C5 /* BreatheAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreatheAnimationViewController.swift; sourceTree = "<group>"; };
+		453D2BC527FA150B00CBF6FE /* ViewAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewAccountViewController.swift; sourceTree = "<group>"; };
+		453D2BC727FA223700CBF6FE /* ColourViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColourViewController.swift; sourceTree = "<group>"; };
+		454526CF27CE86550054DFE8 /* Tips.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tips.swift; sourceTree = "<group>"; };
+		454526D327CFB5250054DFE8 /* ShowTipsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowTipsViewController.swift; sourceTree = "<group>"; };
+		454526D527CFD5620054DFE8 /* AddTipsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTipsViewController.swift; sourceTree = "<group>"; };
+		454526FD27D543FE0054DFE8 /* TrackMonthlyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackMonthlyViewController.swift; sourceTree = "<group>"; };
+		454DF9E327C914730043C5AB /* MeditateUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditateUIView.swift; sourceTree = "<group>"; };
+		454DFA0127C921D50043C5AB /* MeditateAnimateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditateAnimateViewController.swift; sourceTree = "<group>"; };
+		4577B43727E7B49900498F1C /* TrendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendsViewController.swift; sourceTree = "<group>"; };
+		4581416E27BD8E170012824F /* BoxBreathSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxBreathSwiftUIView.swift; sourceTree = "<group>"; };
+		458141DC27C526830012824F /* ResonantBreathSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResonantBreathSwiftUIView.swift; sourceTree = "<group>"; };
+		458141DE27C5269A0012824F /* AlternateNostrilBreathSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlternateNostrilBreathSwiftUIView.swift; sourceTree = "<group>"; };
+		458141E027C526C20012824F /* DiaphragmaticBreathSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaphragmaticBreathSwiftUIView.swift; sourceTree = "<group>"; };
+		458141E227C526EA0012824F /* Breath478SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Breath478SwiftUIView.swift; sourceTree = "<group>"; };
+		4592B51227B5796C003BB1A0 /* Ground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ground.swift; sourceTree = "<group>"; };
+		4592B51427B5797A003BB1A0 /* GroundViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroundViewModel.swift; sourceTree = "<group>"; };
+		4592B51827B80821003BB1A0 /* CheckInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckInViewModel.swift; sourceTree = "<group>"; };
+		4592B51A27B81491003BB1A0 /* CheckIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckIn.swift; sourceTree = "<group>"; };
+		45B8672327CA6CBB007988C0 /* Komiku_-_08_-_Dreaming_of_you.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Komiku_-_08_-_Dreaming_of_you.mp3"; sourceTree = "<group>"; };
+		45B8672427CA6CBB007988C0 /* Komiku_-_69_-_Resolution.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Komiku_-_69_-_Resolution.mp3"; sourceTree = "<group>"; };
+		45B8672527CA6CBB007988C0 /* Komiku_-_55_-_Sunset_on_the_beach.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Komiku_-_55_-_Sunset_on_the_beach.mp3"; sourceTree = "<group>"; };
+		45B8672627CA6CBB007988C0 /* Komiku_-_11_-_Friends_2068.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Komiku_-_11_-_Friends_2068.mp3"; sourceTree = "<group>"; };
+		45B8672B27CAB79B007988C0 /* MeditateViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditateViewModel.swift; sourceTree = "<group>"; };
+		45B8672D27CAB8BF007988C0 /* Meditate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meditate.swift; sourceTree = "<group>"; };
 		45B958962764E553009832CD /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		45B958992764E740009832CD /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		45B958A82764F753009832CD /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		45B958AA27677EE3009832CD /* JournalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalViewController.swift; sourceTree = "<group>"; };
 		45B958AC27677EF2009832CD /* BreatheViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreatheViewController.swift; sourceTree = "<group>"; };
 		45B958AE27677F0C009832CD /* GroundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroundViewController.swift; sourceTree = "<group>"; };
-		45B958B027678492009832CD /* Homepage.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Homepage.storyboard; sourceTree = "<group>"; };
+		45BB5F3827DBD57700FB6DAE /* Track.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
+		45BB5F3A27DBDD4A00FB6DAE /* TrackEntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackEntryViewController.swift; sourceTree = "<group>"; };
 		45C7CCBA2767B17D00A4D55D /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -78,6 +162,10 @@
 				45B9589D2764EEB9009832CD /* FirebaseAnalytics in Frameworks */,
 				45B958A72764EEB9009832CD /* FirebaseFirestoreSwift-Beta in Frameworks */,
 				45B958A52764EEB9009832CD /* FirebaseFirestoreCombine-Community in Frameworks */,
+				4577B46F27EA173400498F1C /* Charts in Frameworks */,
+				4577B46C27EA157C00498F1C /* Algorithms in Frameworks */,
+				454526FC27D543990054DFE8 /* FSCalendar in Frameworks */,
+				4577B46927EA155600498F1C /* Algorithms in Frameworks */,
 				45B9589F2764EEB9009832CD /* FirebaseAuth in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -85,6 +173,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		450B23A0278A1290008ED780 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				450B23A3278A12B7008ED780 /* FirebaseDB.swift */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		450B23A1278A129D008ED780 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				450B23A7278A1467008ED780 /* SignUpViewModel.swift */,
+				450B23A9278A19E8008ED780 /* LoginViewModel.swift */,
+				450B23AB278A1C42008ED780 /* JournalViewModel.swift */,
+				450B23AF278A283C008ED780 /* ExerciseViewModel.swift */,
+				450B23B3278B67E0008ED780 /* SleepViewModel.swift */,
+				4592B51427B5797A003BB1A0 /* GroundViewModel.swift */,
+				4592B51827B80821003BB1A0 /* CheckInViewModel.swift */,
+				4511342E27C7D8D7004E8E82 /* BreatheViewModel.swift */,
+				45B8672B27CAB79B007988C0 /* MeditateViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		450B23A2278A12A5008ED780 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				450B23A5278A12E0008ED780 /* User.swift */,
+				450B23AD278A1C4E008ED780 /* Journal.swift */,
+				450B23B1278A2847008ED780 /* Exercise.swift */,
+				450B23B6278B68CC008ED780 /* Sleep.swift */,
+				4592B51227B5796C003BB1A0 /* Ground.swift */,
+				4592B51A27B81491003BB1A0 /* CheckIn.swift */,
+				4511343027C7DA30004E8E82 /* Breathe.swift */,
+				45B8672D27CAB8BF007988C0 /* Meditate.swift */,
+				454526CF27CE86550054DFE8 /* Tips.swift */,
+				45BB5F3827DBD57700FB6DAE /* Track.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		450BA9622764D9AE0012E36B = {
 			isa = PBXGroup;
 			children = (
@@ -104,6 +233,10 @@
 		450BA96D2764D9AE0012E36B /* WellbeingAndMindfulApp */ = {
 			isa = PBXGroup;
 			children = (
+				454CFB58281C276000E9049F /* SwiftUI */,
+				450B23A2278A12A5008ED780 /* Model */,
+				450B23A1278A129D008ED780 /* ViewModel */,
+				450B23A0278A1290008ED780 /* Database */,
 				45B958982764E6C1009832CD /* Helpers */,
 				450BA98A2764DC9E0012E36B /* View Controllers */,
 				450BA96E2764D9AE0012E36B /* AppDelegate.swift */,
@@ -113,7 +246,10 @@
 				450BA9792764D9AF0012E36B /* LaunchScreen.storyboard */,
 				450BA97C2764D9AF0012E36B /* Info.plist */,
 				450BA9822764DA640012E36B /* GoogleService-Info.plist */,
-				45B958B027678492009832CD /* Homepage.storyboard */,
+				45B8672327CA6CBB007988C0 /* Komiku_-_08_-_Dreaming_of_you.mp3 */,
+				45B8672627CA6CBB007988C0 /* Komiku_-_11_-_Friends_2068.mp3 */,
+				45B8672527CA6CBB007988C0 /* Komiku_-_55_-_Sunset_on_the_beach.mp3 */,
+				45B8672427CA6CBB007988C0 /* Komiku_-_69_-_Resolution.mp3 */,
 			);
 			path = WellbeingAndMindfulApp;
 			sourceTree = "<group>";
@@ -127,17 +263,40 @@
 				45B958962764E553009832CD /* LoginViewController.swift */,
 				45B958AA27677EE3009832CD /* JournalViewController.swift */,
 				45B958AC27677EF2009832CD /* BreatheViewController.swift */,
+				453B8D8927BBE7FB004741C5 /* BreatheAnimationViewController.swift */,
 				45B958AE27677F0C009832CD /* GroundViewController.swift */,
 				451151062767ADB000490F5D /* SleepViewController.swift */,
 				451151082767ADC100490F5D /* CheckInViewController.swift */,
 				4511510A2767ADCD00490F5D /* ExerciseViewController.swift */,
 				4511510C2767ADD900490F5D /* TipsViewController.swift */,
-				4511510E2767ADE400490F5D /* ConnectViewController.swift */,
+				454526D327CFB5250054DFE8 /* ShowTipsViewController.swift */,
+				454526D527CFD5620054DFE8 /* AddTipsViewController.swift */,
 				451151102767ADEE00490F5D /* MeditateViewController.swift */,
+				454DFA0127C921D50043C5AB /* MeditateAnimateViewController.swift */,
 				451151122767ADFA00490F5D /* TrackViewController.swift */,
+				454526FD27D543FE0054DFE8 /* TrackMonthlyViewController.swift */,
+				45BB5F3A27DBDD4A00FB6DAE /* TrackEntryViewController.swift */,
+				4577B43727E7B49900498F1C /* TrendsViewController.swift */,
 				45C7CCBA2767B17D00A4D55D /* SettingsViewController.swift */,
+				453D2BC527FA150B00CBF6FE /* ViewAccountViewController.swift */,
+				453D2BC727FA223700CBF6FE /* ColourViewController.swift */,
+				452BDB8127FC9D100043E3D9 /* AdminHomeViewController.swift */,
+				452BDB8327FCB8C70043E3D9 /* AdminManageUsersViewController.swift */,
 			);
 			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		454CFB58281C276000E9049F /* SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				4581416E27BD8E170012824F /* BoxBreathSwiftUIView.swift */,
+				458141DC27C526830012824F /* ResonantBreathSwiftUIView.swift */,
+				458141DE27C5269A0012824F /* AlternateNostrilBreathSwiftUIView.swift */,
+				458141E027C526C20012824F /* DiaphragmaticBreathSwiftUIView.swift */,
+				458141E227C526EA0012824F /* Breath478SwiftUIView.swift */,
+				454DF9E327C914730043C5AB /* MeditateUIView.swift */,
+			);
+			path = SwiftUI;
 			sourceTree = "<group>";
 		};
 		45B958982764E6C1009832CD /* Helpers */ = {
@@ -145,6 +304,7 @@
 			children = (
 				45B958992764E740009832CD /* Utilities.swift */,
 				45B958A82764F753009832CD /* Constants.swift */,
+				450B23B8278DE910008ED780 /* StyleSheet.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -172,6 +332,10 @@
 				45B958A22764EEB9009832CD /* FirebaseFirestore */,
 				45B958A42764EEB9009832CD /* FirebaseFirestoreCombine-Community */,
 				45B958A62764EEB9009832CD /* FirebaseFirestoreSwift-Beta */,
+				454526FB27D543990054DFE8 /* FSCalendar */,
+				4577B46827EA155600498F1C /* Algorithms */,
+				4577B46B27EA157C00498F1C /* Algorithms */,
+				4577B46E27EA173400498F1C /* Charts */,
 			);
 			productName = WellbeingAndMindfulApp;
 			productReference = 450BA96B2764D9AE0012E36B /* WellbeingAndMindfulApp.app */;
@@ -203,6 +367,10 @@
 			mainGroup = 450BA9622764D9AE0012E36B;
 			packageReferences = (
 				45B9589B2764EEB9009832CD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				454526FA27D543970054DFE8 /* XCRemoteSwiftPackageReference "FSCalendar" */,
+				4577B46727EA155600498F1C /* XCRemoteSwiftPackageReference "swift-algorithms" */,
+				4577B46A27EA157C00498F1C /* XCRemoteSwiftPackageReference "swift-algorithms" */,
+				4577B46D27EA173400498F1C /* XCRemoteSwiftPackageReference "Charts" */,
 			);
 			productRefGroup = 450BA96C2764D9AE0012E36B /* Products */;
 			projectDirPath = "";
@@ -218,9 +386,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45B8672727CA6CBC007988C0 /* Komiku_-_08_-_Dreaming_of_you.mp3 in Resources */,
+				45B8672A27CA6CBC007988C0 /* Komiku_-_11_-_Friends_2068.mp3 in Resources */,
 				450BA97B2764D9AF0012E36B /* LaunchScreen.storyboard in Resources */,
 				450BA9782764D9AF0012E36B /* Assets.xcassets in Resources */,
-				45B958B127678492009832CD /* Homepage.storyboard in Resources */,
+				45B8672927CA6CBC007988C0 /* Komiku_-_55_-_Sunset_on_the_beach.mp3 in Resources */,
+				45B8672827CA6CBC007988C0 /* Komiku_-_69_-_Resolution.mp3 in Resources */,
 				450BA9762764D9AE0012E36B /* Main.storyboard in Resources */,
 				450BA9832764DA640012E36B /* GoogleService-Info.plist in Resources */,
 			);
@@ -233,25 +404,62 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45BB5F3B27DBDD4A00FB6DAE /* TrackEntryViewController.swift in Sources */,
+				450B23AC278A1C42008ED780 /* JournalViewModel.swift in Sources */,
+				454DFA0227C921D50043C5AB /* MeditateAnimateViewController.swift in Sources */,
+				450B23AE278A1C4E008ED780 /* Journal.swift in Sources */,
+				450B23AA278A19E8008ED780 /* LoginViewModel.swift in Sources */,
 				451151072767ADB000490F5D /* SleepViewController.swift in Sources */,
+				4577B43827E7B49900498F1C /* TrendsViewController.swift in Sources */,
 				45B958AD27677EF2009832CD /* BreatheViewController.swift in Sources */,
 				45B958972764E553009832CD /* LoginViewController.swift in Sources */,
+				450B23B0278A283C008ED780 /* ExerciseViewModel.swift in Sources */,
 				451151112767ADEF00490F5D /* MeditateViewController.swift in Sources */,
 				45B958AB27677EE3009832CD /* JournalViewController.swift in Sources */,
 				45C7CCBB2767B17D00A4D55D /* SettingsViewController.swift in Sources */,
 				450BA9732764D9AE0012E36B /* ViewController.swift in Sources */,
+				4592B51527B5797A003BB1A0 /* GroundViewModel.swift in Sources */,
+				450B23B9278DE910008ED780 /* StyleSheet.swift in Sources */,
+				458141DD27C526830012824F /* ResonantBreathSwiftUIView.swift in Sources */,
 				45B9589A2764E740009832CD /* Utilities.swift in Sources */,
+				452BDB8427FCB8C70043E3D9 /* AdminManageUsersViewController.swift in Sources */,
+				450B23B4278B67E0008ED780 /* SleepViewModel.swift in Sources */,
+				453B8D8A27BBE7FB004741C5 /* BreatheAnimationViewController.swift in Sources */,
 				450BA96F2764D9AE0012E36B /* AppDelegate.swift in Sources */,
 				450BA9852764DC770012E36B /* SignUpViewController.swift in Sources */,
+				453D2BC827FA223700CBF6FE /* ColourViewController.swift in Sources */,
+				45B8672E27CAB8BF007988C0 /* Meditate.swift in Sources */,
+				45B8672C27CAB79B007988C0 /* MeditateViewModel.swift in Sources */,
+				45BB5F3927DBD57700FB6DAE /* Track.swift in Sources */,
+				4592B51927B80821003BB1A0 /* CheckInViewModel.swift in Sources */,
+				454526FE27D543FF0054DFE8 /* TrackMonthlyViewController.swift in Sources */,
 				4511510B2767ADCD00490F5D /* ExerciseViewController.swift in Sources */,
+				4592B51B27B81492003BB1A0 /* CheckIn.swift in Sources */,
+				454526D427CFB5250054DFE8 /* ShowTipsViewController.swift in Sources */,
+				453D2BC627FA150B00CBF6FE /* ViewAccountViewController.swift in Sources */,
 				451151132767ADFA00490F5D /* TrackViewController.swift in Sources */,
 				450BA9712764D9AE0012E36B /* SceneDelegate.swift in Sources */,
+				458141DF27C5269A0012824F /* AlternateNostrilBreathSwiftUIView.swift in Sources */,
+				450B23B2278A2847008ED780 /* Exercise.swift in Sources */,
 				45B958AF27677F0C009832CD /* GroundViewController.swift in Sources */,
 				4511510D2767ADD900490F5D /* TipsViewController.swift in Sources */,
+				458141E327C526EA0012824F /* Breath478SwiftUIView.swift in Sources */,
 				450BA9892764DC9A0012E36B /* HomeViewController.swift in Sources */,
 				45B958A92764F753009832CD /* Constants.swift in Sources */,
+				4511343127C7DA30004E8E82 /* Breathe.swift in Sources */,
+				4592B51327B5796C003BB1A0 /* Ground.swift in Sources */,
 				451151092767ADC100490F5D /* CheckInViewController.swift in Sources */,
-				4511510F2767ADE400490F5D /* ConnectViewController.swift in Sources */,
+				458141E127C526C20012824F /* DiaphragmaticBreathSwiftUIView.swift in Sources */,
+				4581416F27BD8E170012824F /* BoxBreathSwiftUIView.swift in Sources */,
+				452BDB8227FC9D100043E3D9 /* AdminHomeViewController.swift in Sources */,
+				450B23A4278A12B7008ED780 /* FirebaseDB.swift in Sources */,
+				450B23A8278A1467008ED780 /* SignUpViewModel.swift in Sources */,
+				4511342F27C7D8D7004E8E82 /* BreatheViewModel.swift in Sources */,
+				454526D027CE86550054DFE8 /* Tips.swift in Sources */,
+				450B23B7278B68CC008ED780 /* Sleep.swift in Sources */,
+				450B23A6278A12E0008ED780 /* User.swift in Sources */,
+				454526D627CFD5620054DFE8 /* AddTipsViewController.swift in Sources */,
+				454DF9E427C914730043C5AB /* MeditateUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -473,6 +681,38 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		454526FA27D543970054DFE8 /* XCRemoteSwiftPackageReference "FSCalendar" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/WenchaoD/FSCalendar";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		4577B46727EA155600498F1C /* XCRemoteSwiftPackageReference "swift-algorithms" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-algorithms.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		4577B46A27EA157C00498F1C /* XCRemoteSwiftPackageReference "swift-algorithms" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-algorithms.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		4577B46D27EA173400498F1C /* XCRemoteSwiftPackageReference "Charts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/danielgindi/Charts.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
 		45B9589B2764EEB9009832CD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
@@ -484,6 +724,26 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		454526FB27D543990054DFE8 /* FSCalendar */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 454526FA27D543970054DFE8 /* XCRemoteSwiftPackageReference "FSCalendar" */;
+			productName = FSCalendar;
+		};
+		4577B46827EA155600498F1C /* Algorithms */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4577B46727EA155600498F1C /* XCRemoteSwiftPackageReference "swift-algorithms" */;
+			productName = Algorithms;
+		};
+		4577B46B27EA157C00498F1C /* Algorithms */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4577B46727EA155600498F1C /* XCRemoteSwiftPackageReference "swift-algorithms" */;
+			productName = Algorithms;
+		};
+		4577B46E27EA173400498F1C /* Charts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4577B46D27EA173400498F1C /* XCRemoteSwiftPackageReference "Charts" */;
+			productName = Charts;
+		};
 		45B9589C2764EEB9009832CD /* FirebaseAnalytics */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 45B9589B2764EEB9009832CD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
